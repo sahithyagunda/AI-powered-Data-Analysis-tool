@@ -12,3 +12,25 @@
 - **Natural Language Prompts**: Users can provide natural language descriptions to generate visualizations.
 - **AI-Powered Visualizations**: Automatically generates code for creating visualizations using **Seaborn** and **Matplotlib**.
 - **Error Handling**: Provides clear feedback if issues arise during file upload or code execution.
+
+Tech Stack for AskTheData
+
+📦 Backend & Logic
+
+Python — Core programming language
+
+pandas — For data loading, preprocessing, and manipulation
+
+seaborn & matplotlib — For data visualization
+
+exec — To dynamically execute AI-generated Python code
+
+Google Gemini (via get_visualization_code) — AI-generated visualization code from user prompts
+
+🌐 Web Framework
+
+Streamlit — For building the interactive UI and data upload interface
+
+📁 File Handling
+
+CSV file parsing using pandas
