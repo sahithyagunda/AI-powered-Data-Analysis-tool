@@ -15,7 +15,7 @@
 
 Tech Stack for AskTheData
 
-📦 Backend & Logic
+Backend & Logic
 
 Python — Core programming language
 
@@ -27,10 +27,10 @@ exec — To dynamically execute AI-generated Python code
 
 Google Gemini (via get_visualization_code) — AI-generated visualization code from user prompts
 
-🌐 Web Framework
+ Web Framework
 
 Streamlit — For building the interactive UI and data upload interface
 
-📁 File Handling
+File Handling
 
 CSV file parsing using pandas
